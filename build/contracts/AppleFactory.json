@@ -1,0 +1,1354 @@
+{
+  "contractName": "AppleFactory",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "weight",
+          "type": "uint256"
+        },
+        {
+          "name": "species",
+          "type": "string"
+        }
+      ],
+      "name": "create",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50610749806100206000396000f3006080604052600436106100405763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630118fa498114610045575b600080fd5b34801561005157600080fd5b5061006561006036600461017e565b610067565b005b60008282610073610107565b61007e929190610214565b604051809103906000f08015801561009a573d6000803e3d6000fd5b50600080546001810182559080527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e56301805473ffffffffffffffffffffffffffffffffffffffff191673ffffffffffffffffffffffffffffffffffffffff92909216919091179055505050565b604051610437806102d983390190565b6000601f8201831361012857600080fd5b813561013b61013682610263565b61023c565b9150808252602083016020830185838301111561015757600080fd5b610162838284610292565b50505092915050565b6000610177823561028f565b9392505050565b6000806040838503121561019157600080fd5b600061019d858561016b565b925050602083013567ffffffffffffffff8111156101ba57600080fd5b6101c685828601610117565b9150509250929050565b60006101db8261028b565b8084526101ef81602086016020860161029e565b6101f8816102ce565b9093016020019392505050565b61020e8161028f565b82525050565b604081016102228285610205565b818103602083015261023481846101d0565b949350505050565b60405181810167ffffffffffffffff8111828210171561025b57600080fd5b604052919050565b600067ffffffffffffffff82111561027a57600080fd5b506020601f91909101601f19160190565b5190565b90565b82818337506000910152565b60005b838110156102b95781810151838201526020016102a1565b838111156102c8576000848401525b50505050565b601f01601f1916905600608060405234801561001057600080fd5b506040516104373803806104378339810180604052610032919081019061016c565b60408051808201909152828152602080820183905260008481558351909161005f9160019186019061006a565b50905050505061023a565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100ab57805160ff19168380011785556100d8565b828001600101855582156100d8579182015b828111156100d85782518255916020019190600101906100bd565b506100e49291506100e8565b5090565b61010291905b808211156100e457600081556001016100ee565b90565b6000601f8201831361011657600080fd5b8151610129610124826101e3565b6101bd565b9150808252602083016020830185838301111561014557600080fd5b61015083828461020a565b50505092915050565b60006101658251610102565b9392505050565b6000806040838503121561017f57600080fd5b600061018b8585610159565b92505060208301516001604060020a038111156101a757600080fd5b6101b385828601610105565b9150509250929050565b6040518181016001604060020a03811182821017156101db57600080fd5b604052919050565b60006001604060020a038211156101f957600080fd5b506020601f91909101601f19160190565b60005b8381101561022557818101518382015260200161020d565b83811115610234576000848401525b50505050565b6101ee806102496000396000f3006080604052600436106100405763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416635e88bc148114610045575b600080fd5b34801561005157600080fd5b5061005a610071565b60405161006892919061014b565b60405180910390f35b6000805460018054604080516020600284861615610100026000190190941693909304601f810184900484028201840190925281815293949392918301828280156100fd5780601f106100d2576101008083540402835291602001916100fd565b820191906000526020600020905b8154815290600101906020018083116100e057829003601f168201915b5050505050905082565b600061011282610173565b80845261012681602086016020860161017a565b61012f816101aa565b9093016020019392505050565b61014581610177565b82525050565b60408101610159828561013c565b818103602083015261016b8184610107565b949350505050565b5190565b90565b60005b8381101561019557818101518382015260200161017d565b838111156101a4576000848401525b50505050565b601f01601f1916905600a265627a7a72305820e5c196a4b6f72c90edd66e2ae07c7a0c2ed77e2138da0aac37be4e7bc831c3d96c6578706572696d656e74616cf50037a265627a7a723058209862a9a778f9dfe00f00b40fa145b45a646938abcb929e1732d766eff10f22db6c6578706572696d656e74616cf50037",
+  "deployedBytecode": "0x6080604052600436106100405763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630118fa498114610045575b600080fd5b34801561005157600080fd5b5061006561006036600461017e565b610067565b005b60008282610073610107565b61007e929190610214565b604051809103906000f08015801561009a573d6000803e3d6000fd5b50600080546001810182559080527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e56301805473ffffffffffffffffffffffffffffffffffffffff191673ffffffffffffffffffffffffffffffffffffffff92909216919091179055505050565b604051610437806102d983390190565b6000601f8201831361012857600080fd5b813561013b61013682610263565b61023c565b9150808252602083016020830185838301111561015757600080fd5b610162838284610292565b50505092915050565b6000610177823561028f565b9392505050565b6000806040838503121561019157600080fd5b600061019d858561016b565b925050602083013567ffffffffffffffff8111156101ba57600080fd5b6101c685828601610117565b9150509250929050565b60006101db8261028b565b8084526101ef81602086016020860161029e565b6101f8816102ce565b9093016020019392505050565b61020e8161028f565b82525050565b604081016102228285610205565b818103602083015261023481846101d0565b949350505050565b60405181810167ffffffffffffffff8111828210171561025b57600080fd5b604052919050565b600067ffffffffffffffff82111561027a57600080fd5b506020601f91909101601f19160190565b5190565b90565b82818337506000910152565b60005b838110156102b95781810151838201526020016102a1565b838111156102c8576000848401525b50505050565b601f01601f1916905600608060405234801561001057600080fd5b506040516104373803806104378339810180604052610032919081019061016c565b60408051808201909152828152602080820183905260008481558351909161005f9160019186019061006a565b50905050505061023a565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100ab57805160ff19168380011785556100d8565b828001600101855582156100d8579182015b828111156100d85782518255916020019190600101906100bd565b506100e49291506100e8565b5090565b61010291905b808211156100e457600081556001016100ee565b90565b6000601f8201831361011657600080fd5b8151610129610124826101e3565b6101bd565b9150808252602083016020830185838301111561014557600080fd5b61015083828461020a565b50505092915050565b60006101658251610102565b9392505050565b6000806040838503121561017f57600080fd5b600061018b8585610159565b92505060208301516001604060020a038111156101a757600080fd5b6101b385828601610105565b9150509250929050565b6040518181016001604060020a03811182821017156101db57600080fd5b604052919050565b60006001604060020a038211156101f957600080fd5b506020601f91909101601f19160190565b60005b8381101561022557818101518382015260200161020d565b83811115610234576000848401525b50505050565b6101ee806102496000396000f3006080604052600436106100405763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416635e88bc148114610045575b600080fd5b34801561005157600080fd5b5061005a610071565b60405161006892919061014b565b60405180910390f35b6000805460018054604080516020600284861615610100026000190190941693909304601f810184900484028201840190925281815293949392918301828280156100fd5780601f106100d2576101008083540402835291602001916100fd565b820191906000526020600020905b8154815290600101906020018083116100e057829003601f168201915b5050505050905082565b600061011282610173565b80845261012681602086016020860161017a565b61012f816101aa565b9093016020019392505050565b61014581610177565b82525050565b60408101610159828561013c565b818103602083015261016b8184610107565b949350505050565b5190565b90565b60005b8381101561019557818101518382015260200161017d565b838111156101a4576000848401525b50505050565b601f01601f1916905600a265627a7a72305820e5c196a4b6f72c90edd66e2ae07c7a0c2ed77e2138da0aac37be4e7bc831c3d96c6578706572696d656e74616cf50037a265627a7a723058209862a9a778f9dfe00f00b40fa145b45a646938abcb929e1732d766eff10f22db6c6578706572696d656e74616cf50037",
+  "sourceMap": "59:221:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;59:221:0;;;;;;;",
+  "deployedSourceMap": "59:221:0:-;;;;;;;;;;;;;;;;;;;;;;;122:155;;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;122:155:0;;;;;;;;;;;;177:19;217:6;225:7;199:34;;:::i;:::-;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;-1:-1;243:9:0;27:10:-1;;39:1;23:18;;45:23;;243:27:0;;;;;;;-1:-1:-1;;243:27:0;;;;;;;;;;;;-1:-1:-1;;;122:155:0:o;59:221::-;;;;;;;;;;:::o;6:442:-1:-;;101:4;89:17;;85:27;-1:-1;75:2;;126:1;123;116:12;75:2;163:6;150:20;185:65;200:49;242:6;200:49;;;185:65;;;176:74;;270:6;263:5;256:21;306:4;298:6;294:17;339:4;332:5;328:16;374:3;365:6;360:3;356:16;353:25;350:2;;;391:1;388;381:12;350:2;401:41;435:6;430:3;425;401:41;;;68:380;;;;;;;;456:118;;523:46;561:6;548:20;523:46;;;514:55;508:66;-1:-1;;;508:66;581:472;;;712:2;700:9;691:7;687:23;683:32;680:2;;;728:1;725;718:12;680:2;763:1;780:53;825:7;805:9;780:53;;;770:63;;742:97;898:2;887:9;883:18;870:32;922:18;914:6;911:30;908:2;;;954:1;951;944:12;908:2;974:63;1029:7;1020:6;1009:9;1005:22;974:63;;;964:73;;849:194;674:379;;;;;;1060:300;;1162:39;1195:5;1162:39;;;1218:6;1213:3;1206:19;1230:63;1286:6;1279:4;1274:3;1270:14;1263:4;1256:5;1252:16;1230:63;;;1325:29;1347:6;1325:29;;;1305:50;;;1318:4;1305:50;;1142:218;-1:-1;;;1142:218;1367:110;1440:31;1465:5;1440:31;;;1435:3;1428:44;1422:55;;;1484:382;1640:2;1625:18;;1654:61;1629:9;1688:6;1654:61;;;1763:9;1757:4;1753:20;1748:2;1737:9;1733:18;1726:48;1788:68;1851:4;1842:6;1788:68;;;1780:76;1611:255;-1:-1;;;;1611:255;1873:256;1935:2;1929:9;1961:17;;;2036:18;2021:34;;2057:22;;;2018:62;2015:2;;;2093:1;2090;2083:12;2015:2;2109;2102:22;1913:216;;-1:-1;1913:216;2136:259;;2280:18;2272:6;2269:30;2266:2;;;2312:1;2309;2302:12;2266:2;-1:-1;2385:4;2356;2333:17;;;;-1:-1;;2329:33;2375:15;;2203:192;2402:92;2477:12;;2461:33;2501:79;2570:5;2553:27;2674:145;2755:6;2750:3;2745;2732:30;-1:-1;2811:1;2793:16;;2786:27;2725:94;2828:268;2893:1;2900:101;2914:6;2911:1;2908:13;2900:101;;;2981:11;;;2975:18;2962:11;;;2955:39;2936:2;2929:10;2900:101;;;3016:6;3013:1;3010:13;3007:2;;;3081:1;3072:6;3067:3;3063:16;3056:27;3007:2;2877:219;;;;;3104:97;3192:2;3172:14;-1:-1;;3168:28;;3152:49",
+  "source": "pragma solidity ^0.4.0;\npragma experimental ABIEncoderV2;\n\ncontract AppleFactory {\n        \n    address[] addresses;\n\n    function create(uint weight, string species) {\n        address newContract = new AppleContract(weight, species);\n        addresses.push(newContract);\n    }\n\n}\n\ncontract AppleContract {\n\n    Apple public apple;\n\n    struct Apple {\n        uint weight;\n        string species;\n    }\n\n    function AppleContract(uint weight, string species) {\n        apple = Apple(weight, species);\n    }\n\n}",
+  "sourcePath": "/Users/jbjoffre/Development/blockchain/codingdojo/contracts/AppleContract.sol",
+  "ast": {
+    "absolutePath": "/Users/jbjoffre/Development/blockchain/codingdojo/contracts/AppleContract.sol",
+    "exportedSymbols": {
+      "AppleContract": [
+        51
+      ],
+      "AppleFactory": [
+        28
+      ]
+    },
+    "id": 52,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "id": 2,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "24:33:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [
+          51
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 28,
+        "linearizedBaseContracts": [
+          28
+        ],
+        "name": "AppleFactory",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 5,
+            "name": "addresses",
+            "nodeType": "VariableDeclaration",
+            "scope": 28,
+            "src": "96:19:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_address_$dyn_storage",
+              "typeString": "address[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 3,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "96:7:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "id": 4,
+              "length": null,
+              "nodeType": "ArrayTypeName",
+              "src": "96:9:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                "typeString": "address[]"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 26,
+              "nodeType": "Block",
+              "src": "167:110:0",
+              "statements": [
+                {
+                  "assignments": [
+                    13
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 13,
+                      "name": "newContract",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 27,
+                      "src": "177:19:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      },
+                      "typeName": {
+                        "id": 12,
+                        "name": "address",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "177:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 19,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 16,
+                        "name": "weight",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 7,
+                        "src": "217:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "id": 17,
+                        "name": "species",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 9,
+                        "src": "225:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      ],
+                      "id": 15,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "NewExpression",
+                      "src": "199:17:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_creation_nonpayable$_t_uint256_$_t_string_memory_ptr_$returns$_t_contract$_AppleContract_$51_$",
+                        "typeString": "function (uint256,string memory) returns (contract AppleContract)"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 14,
+                        "name": "AppleContract",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 51,
+                        "src": "203:13:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_AppleContract_$51",
+                          "typeString": "contract AppleContract"
+                        }
+                      }
+                    },
+                    "id": 18,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "199:34:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_AppleContract_$51",
+                      "typeString": "contract AppleContract"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "177:56:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 23,
+                        "name": "newContract",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 13,
+                        "src": "258:11:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 20,
+                        "name": "addresses",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 5,
+                        "src": "243:9:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_address_$dyn_storage",
+                          "typeString": "address[] storage ref"
+                        }
+                      },
+                      "id": 22,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "243:14:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_address_$returns$_t_uint256_$",
+                        "typeString": "function (address) returns (uint256)"
+                      }
+                    },
+                    "id": 24,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "243:27:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 25,
+                  "nodeType": "ExpressionStatement",
+                  "src": "243:27:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 27,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "create",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 7,
+                  "name": "weight",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27,
+                  "src": "138:11:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 6,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "138:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9,
+                  "name": "species",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27,
+                  "src": "151:14:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 8,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "151:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "137:29:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 11,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "167:0:0"
+            },
+            "scope": 28,
+            "src": "122:155:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 52,
+        "src": "59:221:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 51,
+        "linearizedBaseContracts": [
+          51
+        ],
+        "name": "AppleContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 30,
+            "name": "apple",
+            "nodeType": "VariableDeclaration",
+            "scope": 51,
+            "src": "312:18:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_struct$_Apple_$35_storage",
+              "typeString": "struct AppleContract.Apple"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 29,
+              "name": "Apple",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 35,
+              "src": "312:5:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_struct$_Apple_$35_storage_ptr",
+                "typeString": "struct AppleContract.Apple"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "canonicalName": "AppleContract.Apple",
+            "id": 35,
+            "members": [
+              {
+                "constant": false,
+                "id": 32,
+                "name": "weight",
+                "nodeType": "VariableDeclaration",
+                "scope": 35,
+                "src": "360:11:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 31,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "360:4:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 34,
+                "name": "species",
+                "nodeType": "VariableDeclaration",
+                "scope": 35,
+                "src": "381:14:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 33,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "381:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Apple",
+            "nodeType": "StructDefinition",
+            "scope": 51,
+            "src": "337:65:0",
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 49,
+              "nodeType": "Block",
+              "src": "460:47:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 47,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 42,
+                      "name": "apple",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 30,
+                      "src": "470:5:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Apple_$35_storage",
+                        "typeString": "struct AppleContract.Apple storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "id": 44,
+                          "name": "weight",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 37,
+                          "src": "484:6:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "id": 45,
+                          "name": "species",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 39,
+                          "src": "492:7:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          },
+                          {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        ],
+                        "id": 43,
+                        "name": "Apple",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 35,
+                        "src": "478:5:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_Apple_$35_storage_ptr_$",
+                          "typeString": "type(struct AppleContract.Apple storage pointer)"
+                        }
+                      },
+                      "id": 46,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "478:22:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Apple_$35_memory",
+                        "typeString": "struct AppleContract.Apple memory"
+                      }
+                    },
+                    "src": "470:30:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Apple_$35_storage",
+                      "typeString": "struct AppleContract.Apple storage ref"
+                    }
+                  },
+                  "id": 48,
+                  "nodeType": "ExpressionStatement",
+                  "src": "470:30:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 50,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "AppleContract",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 40,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 37,
+                  "name": "weight",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 50,
+                  "src": "431:11:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 36,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "431:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 39,
+                  "name": "species",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 50,
+                  "src": "444:14:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 38,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "444:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "430:29:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 41,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "460:0:0"
+            },
+            "scope": 51,
+            "src": "408:99:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 52,
+        "src": "282:228:0"
+      }
+    ],
+    "src": "0:510:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/jbjoffre/Development/blockchain/codingdojo/contracts/AppleContract.sol",
+    "exportedSymbols": {
+      "AppleContract": [
+        51
+      ],
+      "AppleFactory": [
+        28
+      ]
+    },
+    "id": 52,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "id": 2,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "24:33:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [
+          51
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 28,
+        "linearizedBaseContracts": [
+          28
+        ],
+        "name": "AppleFactory",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 5,
+            "name": "addresses",
+            "nodeType": "VariableDeclaration",
+            "scope": 28,
+            "src": "96:19:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_address_$dyn_storage",
+              "typeString": "address[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 3,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "96:7:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "id": 4,
+              "length": null,
+              "nodeType": "ArrayTypeName",
+              "src": "96:9:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                "typeString": "address[]"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 26,
+              "nodeType": "Block",
+              "src": "167:110:0",
+              "statements": [
+                {
+                  "assignments": [
+                    13
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 13,
+                      "name": "newContract",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 27,
+                      "src": "177:19:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      },
+                      "typeName": {
+                        "id": 12,
+                        "name": "address",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "177:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 19,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 16,
+                        "name": "weight",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 7,
+                        "src": "217:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "id": 17,
+                        "name": "species",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 9,
+                        "src": "225:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      ],
+                      "id": 15,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "NewExpression",
+                      "src": "199:17:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_creation_nonpayable$_t_uint256_$_t_string_memory_ptr_$returns$_t_contract$_AppleContract_$51_$",
+                        "typeString": "function (uint256,string memory) returns (contract AppleContract)"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 14,
+                        "name": "AppleContract",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 51,
+                        "src": "203:13:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_AppleContract_$51",
+                          "typeString": "contract AppleContract"
+                        }
+                      }
+                    },
+                    "id": 18,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "199:34:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_AppleContract_$51",
+                      "typeString": "contract AppleContract"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "177:56:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 23,
+                        "name": "newContract",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 13,
+                        "src": "258:11:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 20,
+                        "name": "addresses",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 5,
+                        "src": "243:9:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_address_$dyn_storage",
+                          "typeString": "address[] storage ref"
+                        }
+                      },
+                      "id": 22,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "243:14:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_address_$returns$_t_uint256_$",
+                        "typeString": "function (address) returns (uint256)"
+                      }
+                    },
+                    "id": 24,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "243:27:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 25,
+                  "nodeType": "ExpressionStatement",
+                  "src": "243:27:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 27,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "create",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 7,
+                  "name": "weight",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27,
+                  "src": "138:11:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 6,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "138:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9,
+                  "name": "species",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 27,
+                  "src": "151:14:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 8,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "151:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "137:29:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 11,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "167:0:0"
+            },
+            "scope": 28,
+            "src": "122:155:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 52,
+        "src": "59:221:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 51,
+        "linearizedBaseContracts": [
+          51
+        ],
+        "name": "AppleContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 30,
+            "name": "apple",
+            "nodeType": "VariableDeclaration",
+            "scope": 51,
+            "src": "312:18:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_struct$_Apple_$35_storage",
+              "typeString": "struct AppleContract.Apple"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 29,
+              "name": "Apple",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 35,
+              "src": "312:5:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_struct$_Apple_$35_storage_ptr",
+                "typeString": "struct AppleContract.Apple"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "canonicalName": "AppleContract.Apple",
+            "id": 35,
+            "members": [
+              {
+                "constant": false,
+                "id": 32,
+                "name": "weight",
+                "nodeType": "VariableDeclaration",
+                "scope": 35,
+                "src": "360:11:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 31,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "360:4:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 34,
+                "name": "species",
+                "nodeType": "VariableDeclaration",
+                "scope": 35,
+                "src": "381:14:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 33,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "381:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Apple",
+            "nodeType": "StructDefinition",
+            "scope": 51,
+            "src": "337:65:0",
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 49,
+              "nodeType": "Block",
+              "src": "460:47:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 47,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 42,
+                      "name": "apple",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 30,
+                      "src": "470:5:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Apple_$35_storage",
+                        "typeString": "struct AppleContract.Apple storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "id": 44,
+                          "name": "weight",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 37,
+                          "src": "484:6:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "id": 45,
+                          "name": "species",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 39,
+                          "src": "492:7:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          },
+                          {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        ],
+                        "id": 43,
+                        "name": "Apple",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 35,
+                        "src": "478:5:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_Apple_$35_storage_ptr_$",
+                          "typeString": "type(struct AppleContract.Apple storage pointer)"
+                        }
+                      },
+                      "id": 46,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "478:22:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Apple_$35_memory",
+                        "typeString": "struct AppleContract.Apple memory"
+                      }
+                    },
+                    "src": "470:30:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Apple_$35_storage",
+                      "typeString": "struct AppleContract.Apple storage ref"
+                    }
+                  },
+                  "id": 48,
+                  "nodeType": "ExpressionStatement",
+                  "src": "470:30:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 50,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "AppleContract",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 40,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 37,
+                  "name": "weight",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 50,
+                  "src": "431:11:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 36,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "431:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 39,
+                  "name": "species",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 50,
+                  "src": "444:14:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 38,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "444:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "430:29:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 41,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "460:0:0"
+            },
+            "scope": 51,
+            "src": "408:99:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 52,
+        "src": "282:228:0"
+      }
+    ],
+    "src": "0:510:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-11-22T21:47:01.332Z"
+}
